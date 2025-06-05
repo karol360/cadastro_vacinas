@@ -1,0 +1,40 @@
+body {
+    background-color: #004AAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+div{
+    text-align: center;
+    max-width: 90%;
+    width: 500px;
+    height: 1000px;
+}
+
+img{
+    position: relative;
+    top: 100px;
+    width: 400px;
+
+}
+
+button {
+    background-color: #0097B2;
+    color: aliceblue;
+    border: none;
+    width: 244px;
+    height: 52px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor:pointer;
+
+    position: relative;
+    bottom: -300px;
+}
+
+.container{
+    border: 1px solid white
+}

@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+/* GERAL */
+body {
+    background-color: #004AAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+#dados {
+    text-align: center;
+    max-width: 90%;
+    width: 500px;
+    height: 1000px;
+    border: 1px solid white;
+}
+
+/* SETA */
+
+a {
+    display: inline-block;
+    padding: 0;
+    line-height: 0;
+    width: 0px;
+    height: 0px;
+}
+
+a img {
+    position: relative;
+    top: 25px;
+    right: 220px;
+}
+
+
+/* ELEMENTOS */
+
+
+#elementos {
+    position: relative;
+    width: 435px;
+    height: 488px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: 10%;
+    left: 30px;
+    font-family: "Mulish", sans-serif;
+}
+
+/* FORMULARIOS */
+
+#formularios {
+    width: 435px;
+}
+
+.nome {
+    display: flex;
+    height: 44px;
+    width: 99%;
+
+    font-size: 16px;
+}
+
+.data {
+    display: flex;
+    height: 44px;
+    width: 30%
+
+}
+
+.escola {
+    display: flex;
+    height: 49px;
+    width: 101%;
+    font-size: 16px;
+}
+
+.vacinas {
+    display: flex;
+    height: 44px;
+    width: 15%;
+    font-size: 16px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    display: flex;
+    color: white;
+}
+
+
+/* BOTÃO */
+
+button {
+    background-color: #0097B2;
+    color: aliceblue;
+    border: none;
+    width: 244px;
+    height: 52px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+    position: relative;
+    bottom: -300px;
+}
