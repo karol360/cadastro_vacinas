@@ -57,3 +57,18 @@ a {
     font-size: 20px;
     font-family: "Mulish", sans-serif;
 }
+
+
+button {
+    background-color: #0097B2;
+    color: aliceblue;
+    border: none;
+    width: 244px;
+    height: 52px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+
+    position: relative;
+    bottom: -233px;
+}
