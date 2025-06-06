@@ -32,9 +32,10 @@ button {
     cursor:pointer;
 
     position: relative;
-    bottom: -300px;
+    bottom: -415px;
 }
 
 .container{
     border: 1px solid white
+
 }

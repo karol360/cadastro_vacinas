@@ -1,0 +1,19 @@
+body {
+    background-color: #004AAD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    max-width: 90%;
+    width: 500px;
+    height: 1000px;
+    border: 1px solid white;
+}
+
+img{
+    position: relative;
+    width: 500px;
+}
+

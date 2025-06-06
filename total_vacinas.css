@@ -16,6 +16,7 @@ body {
     max-width: 90%;
     width: 500px;
     height: 1000px;
+
 }
 
 a {
@@ -41,22 +42,24 @@ a {
 
 /* VACINAS */
 
-#vacinas_tomadas {
-    width: 200px;
-    height: 50px;
+#vacinas_tomadas,
+#vacinas_pendentes {
+
+    width: 80%;
+    height: 80px;
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     font-family: "Mulish", sans-serif;
-    border-bottom:1px solid white;
+    border-bottom: 1px solid white;
+    text-align: left;
+    padding: 8px 0 10px 0;
+
 }
 
-#vacinas_pendentes {
-    width: 200px;
-    height: 50px;
-    color: white;
-    font-size: 20px;
-    font-family: "Mulish", sans-serif;
+p{
+    padding: 0 0 0 40px;
 }
+
 
 
 button {
